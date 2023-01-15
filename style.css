@@ -10,7 +10,6 @@
 }
 nav {
   border-bottom: 2px solid #b7b3b3;
-  margin-bottom: 1rem;
 }
 h2 {
   color: #039a92;
@@ -27,11 +26,67 @@ h2 {
   max-width: 64px;
   padding: 1rem 1rem 0 0;
 }
-.footer-lent{
+.portfolio-secondary img,
+.contact-secondary img {
+  max-width: 64px;
+  padding: 1rem 1rem 0 0;
+}
+.footer-lent {
   background-color: #039a92;
   height: 10px;
   width: 100%;
 }
-.main-footer{
-    
+.main-footer {
+  background-color: #727070;
+  color: white;
+  line-height: 100px;
+}
+.about {
+  padding-bottom: 4.4rem !important;
+}
+.content_box_item {
+  max-width: 350px;
+  width: 100%;
+  height: 250px;
+}
+.content_box_item img {
+  width: 100%;
+  overflow: hidden;
+}
+.content_title {
+  width: 95%;
+  background-color: #039a92;
+  color: white;
+  font-size: 20px;
+  bottom: 1rem;
+}
+.contactbox {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contactcontent {
+  width: 70%;
+  background-color: white;
+  padding: 1rem 2rem;
+}
+.contact_form label {
+  font-size: 32px;
+  font-weight: 500;
+  color: #7e7e7e;
+}
+.contact_form input {
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  border: 1px solid #b5afaf;
+}
+.contact_form textarea {
+  border: 1px solid #b5afaf;
+}
+.submit_Btn {
+  background-color: #039a92;
+  width: 8rem;
+  color: white;
+  padding: 0.5rem 1rem;
 }
